@@ -33,3 +33,34 @@ a{
     font-family: 'Poppins';
     font-weight: 400; /* largura da fonte*/
 }
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+.section-um{
+    display: flex;
+    flex-direction: row;
+}
+.section-um-conteudo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.section-um-conteudo-titulo{
+    font-family: 'Poppins';
+    color: white;
+}
+.section-um-conteudo-paragrafo{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 300;
+}
+.btn-acesse-ja{
+    background-color: white;
+    color: black;
+    width: 153px;
+    justify-content: center;
+    padding: 1.5%;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
