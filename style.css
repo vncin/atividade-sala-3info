@@ -88,3 +88,13 @@ a{
     align-self: center;
     background-color: white;
 }
+.section-dois-titulo{
+    color: white;
+    font-family: 'Poppins';
+}
+.section-dois-lista{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    list-style-position: inside; /*número da lista junto do texto*/
+}
